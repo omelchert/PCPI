@@ -1,0 +1,16 @@
+set terminal postscript enhanced eps color lw 2 22 font "Times-Roman"
+set output "./FIGS/useCase12_Wrz.eps"
+
+set xr [0:0.3]
+set yr [0:0.2]
+
+set xlabel "{/Times-Italic r} [cm]"
+set ylabel "{/Times-Italic z} [cm]"
+set cblabel "{/Times-Italic W}_{/Times-Italic rz} [J/cm^3 per J delivered]"
+unset key
+
+p '../useCase12_Wrz.prof' nonuniform matrix with image
+
+
+
+

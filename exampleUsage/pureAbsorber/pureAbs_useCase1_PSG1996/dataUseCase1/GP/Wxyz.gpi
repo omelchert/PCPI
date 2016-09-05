@@ -1,0 +1,28 @@
+set terminal postscript enhanced eps color lw 0.8 "Times-Roman" 10
+set output "./FIGS/pureAbs_Wxyz.eps"
+
+set size square 0.35,0.35
+
+LM = 0.055
+RM = 0.300
+set lmargin at screen LM 
+set rmargin at screen RM
+set bmargin at screen 0.05
+set tmargin at screen 0.3
+
+unset key
+set xr [0:0.6]
+set yr [0:0.3]
+set cbr [0:]
+set xtics (0.,0.2,0.4, "{/Times-Italic x} (cm)" 0.6)
+set ytics (0.,0.1,0.2,0.3)
+#set cbtics (1,2,3,4)
+set cblabel "{/Times-Italic W(x,y_0,z)} (10^6 J/m^3)" offset 1.,0.
+set ylabel "{/Times-Italic z} (cm)"
+set palette defined (0.0 'black', 0.5 'dark-blue', 1.0 'light-blue')
+set format x "%3.2g"
+set format y "%3.2g"
+set format cb "%.1t"
+set label "(a)" at screen 0.,0.3 font "Times-Roman"
+
+p '../Wxy0z.prof' nonuniform matrix with image
