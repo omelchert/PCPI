@@ -1,2 +1,0 @@
-import dataIO
-from poissonIntegralSolver import pressure  
