@@ -109,7 +109,8 @@ def convolveROI(r,z,grz,fr,P=1.0):
             # Gibbs-phenomenon workaround: trimm off all negative valued 
             # contributions to volumetric energy density at given depth
             hr = convolve(r,rho,G0,F0)
-            hr = np.maximum(hr,np.zeros(hr.size))
+            hr = np.abs(hr)
+            #hr = np.maximum(hr,np.zeros(hr.size))
             # Normalize contribution to volumetric energy density
             Wrz[:,iz] = f0*hr
         return Wrz

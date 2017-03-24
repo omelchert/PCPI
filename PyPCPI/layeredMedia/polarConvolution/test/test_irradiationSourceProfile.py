@@ -37,7 +37,7 @@ class BeamProfileNormalizationTestCase(unittest.TestCase):
             self.R0 = 0.2
             self.P  = 2.0
             self.r  = np.linspace(rMin,rMax,N,retstep=False,endpoint=False)
-            self.f  = isp.Gaussian(self.r,self.R0)
+            self.f  = isp.Gaussian(self.r,(0.,self.R0))
 
         def tearDown(self):
             """Deletes all attributes set by method setUp()."""

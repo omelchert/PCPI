@@ -1,0 +1,137 @@
+fName   = "../rawData_oaSignals_2pi.dat"
+epsName = "./FIGS/fig1abcd.eps"
+
+set terminal postscript enhanced eps size 19cm,11cm color lw 1 14 font "Times-Roman"
+set output epsName 
+
+LW=1.5
+#set style line 111 lc rgb 'blue' lt 1 lw LW
+#set style line 112 lc rgb 'orange' lt 1 lw LW
+#set style line 113 lc rgb 'magenta' lt 1 lw LW
+
+set style line 111 lc rgb 'black' lt 1 lw LW
+set style line 112 lc rgb 'black' lt 1 lw LW
+set style line 113 lc rgb 'black' lt 1 lw LW
+
+
+set multiplot 
+
+
+## FIG 1 A ####################################################################
+
+set lmargin at screen 0.10
+set rmargin at screen 0.48
+set tmargin at screen 0.92 
+set bmargin at screen 0.05
+
+set label 101 "(a)" at screen 0.01,0.92 font "Times-Roman"
+
+xMin    = 0.00
+xMax    = 1.2
+xBZero  = 0.5
+xDMin   = 0
+xDMax   = 99 
+
+LW=1.
+set style line 11 lc rgb 'black' lt 1 lw LW
+set style line 12 lc rgb 'black' lt 1 lw LW dashtype 2 
+set style fill solid 0.0 border #rgb 'black'
+
+unset key
+set border 0 back
+set border 1 front
+set xr [xMin:xMax]
+set yr [0:360]
+set tics nomirror out scale 1.
+set ytics 0.,45,360
+set xtics (0.,0.2,0.4,0.6,0.8, 1.0, '{/Times-Italic ct} {/Times-Roman (cm)}'  1.2)
+set label 1 "{/Symbol q} {/Times-Roman (deg)}" right at screen 0.03,0.6 rotate by 90
+
+styleFunc(n)=(n==75 || n==25 || n==50)?(12):(11)
+#styleFunc(n)=(n==75)?(113):( (n==50)?(112):((n==25)?(111):(11))   )
+
+sFac=0.00001 # 900
+
+p \
+for [ii=xDMax:xDMin:-1] fName every :::ii::ii u ($2):(sFac*$4+xBZero+$1) w filledcurve y1=-10. ls styleFunc(ii)
+
+unset label 1
+## FIG 1 B ####################################################################
+
+set lmargin at screen 0.55
+set rmargin at screen 0.95
+set tmargin at screen 0.92 
+set bmargin at screen 0.67
+
+set label 101 "(b)" at screen 0.5,0.92 font "Times-Roman"
+
+
+set border 31
+set xr [0.25:0.5]
+set yr [-0.6:1.1]
+set ytics -1.2,0.4,1.2
+set xtics (0.25,0.3,0.35,0.4,0.45,"{/Times-Italic ct} (cm)" 0.5)
+unset xlabel
+set format y ''
+set ylabel "{/Times-Italic p} (arb. units)"
+set xzeroaxis
+set key samplen 1.0 reverse Left at graph 1.05,0.95
+set label 111 "{/Symbol q} = 90 deg" at graph 0.02,0.92 
+
+p '<grep "90.0 " ../rawData_oaSignals_fig1bcd.dat' u 2:5 w l ls 111 t "finite layer"\
+, '<grep "90.0 " ../rawData_oaSignals_fig1bcd_semiInf.dat' u 2:5 w l ls 111 dashtype 2 t "semi infinite"
+
+unset label 101
+unset label 111
+
+## FIG 1 C ####################################################################
+
+set lmargin at screen 0.55
+set rmargin at screen 0.95
+set tmargin at screen 0.61 
+set bmargin at screen 0.36
+
+set label 102 "(c)" at screen 0.5,0.61 font "Times-Roman"
+
+set style line 1 lc rgb 'black' lt 1 lw 1
+
+set border 31
+set xr [0.2:0.8]
+set yr [-1.1:1.1]
+set ytics -1.2,0.4,1.2
+set xtics (0.2,0.3,0.4,0.5,0.6,0.7,"{/Times-Italic ct} (cm)" 0.8)
+set format y ''
+set xzeroaxis
+set label 112 "{/Symbol q} = 180 deg" at graph 0.02,0.92 
+
+p '<grep "180.0 " ../rawData_oaSignals_fig1bcd.dat' u 2:5 w l ls 112 t "finite layer"\
+, '<grep "180.0 " ../rawData_oaSignals_fig1bcd_semiInf.dat' u 2:5 w l ls 112 dashtype 2 t "semi infinite"
+
+unset label 102
+unset label 112
+
+## FIG 1 D ####################################################################
+
+set lmargin at screen 0.55
+set rmargin at screen 0.95
+set tmargin at screen 0.30 
+set bmargin at screen 0.05
+
+set label 103 "(d)" at screen 0.5,0.30 font "Times-Roman"
+
+set style line 1 lc rgb 'black' lt 1 lw 1
+
+set border 31
+set xr [0.55:0.75]
+set yr [-0.5:1.1]
+set ytics -1.2,0.4,1.2
+set xtics (0.55,0.6,0.65,0.7,"{/Times-Italic ct} (cm)" 0.75)
+set format y ''
+set xzeroaxis
+set label 113 "{/Symbol q} = 270 deg" at graph 0.02,0.92 
+
+p '<grep "270.0 " ../rawData_oaSignals_fig1bcd.dat' u 2:5 w l ls 113 t "finite layer"\
+, '<grep "270.0 " ../rawData_oaSignals_fig1bcd_semiInf.dat' u 2:5 w l ls 113 dashtype 2 t "semi infinite"
+
+
+unset multiplot

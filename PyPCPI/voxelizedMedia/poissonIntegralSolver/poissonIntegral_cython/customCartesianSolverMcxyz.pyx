@@ -94,4 +94,59 @@ def cartPoissonIntegralSolver(
                 
         return tau, I
 
+def cartPoissonIntegralSolver_Lambertian(
+        np.ndarray[double, ndim=1] x,\
+        np.ndarray[double, ndim=1] y,\
+        np.ndarray[double, ndim=1] z,\
+        np.ndarray[double, ndim=3] p0xyz,\
+        double xD,\
+        double yD,\
+        double zD
+        ):
+        """cartesian coordinate based poisson integral solver. 
+        
+        fast solver for the optoacoustic Poisson integral based on a 
+        representation of the volumetric energy density within the source 
+        volume in cartesian coordinates
+
+        Args:
+            x (numpy array, ndim=1) x-coordinate of detector 
+            y (numpy array, ndim=1) y-coordinate of detector 
+            z (numpy array, ndim=1) z-coordinate of detector
+            p0xyz (numpy array, ndim=3) initial acoustic stress profile 
+            xD (double) x-coordinate of detector position 
+            yD (double) y-coordinate of detector position 
+            zD (double) z-coordinate of detector position (zD<0: backward mode) 
+
+        Returns:
+            tau (numpy array, ndim=1) measurement depth
+            I (numpy array, ndim=1) Poisson Integral base of oa pressure
+        """
+        # DECLARATION ---------------------------------------------------------
+        cdef int iTauMax, i, j, k, binId
+        cdef double dz, d, dV, r, rr, dI
+        cdef np.ndarray[double, ndim=1] tau, I
+        
+        # INITIALIZATION ------------------------------------------------------
+        x = x - xD
+        y = y - yD
+        z = z - zD
+        dz = z[1]-z[0]
+        dV = (x[1]-x[0])*(y[1]-y[0])*dz 
+        iTauMax = int((np.max(np.abs(z))+np.max(np.abs(x))+np.max(np.abs(y)))/dz)
+        tau = np.linspace(0.,iTauMax*dz,iTauMax,endpoint=False)
+        I = np.zeros(tau.size)
+        
+        # INTEGRATION OVER COMPUTATIONAL DOMAIN -------------------------------
+        for i in range(x.size):
+            for j in range(y.size):
+                rr = x[i]*x[i] + y[j]*y[j]
+                for k in range(z.size):
+                    d = sqrt(rr + z[k]*z[k])
+                    binId = int(d/dz)
+                    dI = p0xyz[k,j,i]*dV*abs(z[k])/d/d
+                    I[binId] += dI 
+                
+        return tau, I
+
 # EOF: customCartesianSolverMcxyz.pyx 

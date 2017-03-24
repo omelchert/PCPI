@@ -23,6 +23,9 @@ def fetchRawData(inFileName):
                                 ArzArray.append(c)
                                 c = f.next().split()
 
+        #print Nz,Nr
+        #print Nz*Nr
+        #print np.asarray(ArzArray,dtype=float).size
         rAxis = np.linspace(0,dr*Nr,Nr,endpoint=False)
         zAxis = np.linspace(0,dz*Nz,Nz,endpoint=False)
         ArzArray = np.asarray(ArzArray,dtype=float).reshape((Nr,Nz))

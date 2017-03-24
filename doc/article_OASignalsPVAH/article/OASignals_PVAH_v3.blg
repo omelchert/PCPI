@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: OASignals_PVAH_v3.aux
+The style file: unsrt.bst
+Database file #1: masterBibfile_OASignals.bib
+Database file #2: commentsBibfile_OASignals.bib
+You've used 40 entries,
+            1791 wiz_defined-function locations,
+            723 strings with 10518 characters,
+and the built_in function-call counts, 9074 in all, are:
+= -- 807
+> -- 431
+< -- 1
++ -- 160
+- -- 120
+* -- 663
+:= -- 1503
+add.period$ -- 125
+call.type$ -- 40
+change.case$ -- 38
+chr.to.int$ -- 0
+cite$ -- 40
+duplicate$ -- 350
+empty$ -- 863
+format.name$ -- 120
+if$ -- 1979
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 36
+newline$ -- 206
+num.names$ -- 40
+pop$ -- 58
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 131
+stack$ -- 0
+substring$ -- 702
+swap$ -- 50
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 84
+width$ -- 42
+write$ -- 443

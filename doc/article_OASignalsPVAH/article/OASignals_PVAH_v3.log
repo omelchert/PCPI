@@ -1,0 +1,170 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=latex 2011.7.3)  24 MAR 2017 15:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**OASignals_PVAH_v3
+(./OASignals_PVAH_v3.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(./iopart.cls
+Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
+(./iopart12.clo
+File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
+)
+\c@jnl=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\indentedwidth=\skip43
+\mathindent=\dimen102
+\c@eqnval=\count87
+) (./iopams.sty
+Package: iopams 1997/02/13 v1.0
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(./OASignals_PVAH_v3.aux)
+\openout1 = `OASignals_PVAH_v3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+] [2]
+[3]
+File: ./FIGS/fig1abcd.eps Graphic file (type eps)
+ <./FIGS/fig1abcd.eps>
+Underfull \hbox (badness 1152) in paragraph at lines 239--254
+\OT1/cmr/m/n/12 acoustic stress profiles $\OML/cmm/m/it/12 p[]\OT1/cmr/m/n/12 (
+[])$ experience a shape change induced by diffraction,
+ []
+
+[4] [5] [6]
+File: ./FIGS/oaSignals_xScan.eps Graphic file (type eps)
+ <./FIGS/oaSignals_xScan.eps> [7] [8]
+File: ./FIGS/oaSignals_PVAH.eps Graphic file (type eps)
+ <./FIGS/oaSignals_PVAH.eps>
+Underfull \hbox (badness 1852) in paragraph at lines 446--458
+[]\OT1/cmr/m/n/12 For our custom numerical simulations shown in Fig. 2[](b) we 
+consider a
+ []
+
+[9] [10] [11]
+File: ./FIGS/figA1abcd.eps Graphic file (type eps)
+ <./FIGS/figA1abcd.eps> [12] [13]
+Underfull \hbox (badness 1509) in paragraph at lines 654--682
+ \OT1/cmr/m/it/12 Numerical experiment 3:[] \OT1/cmr/m/n/12 As a further challe
+nge we considered the laboratory
+ []
+
+File: ./FIGS/figB1ab.eps Graphic file (type eps)
+<./FIGS/figB1ab.eps> [14] [15]
+Underfull \hbox (badness 4752) in paragraph at lines 742--754
+\OT1/cmr/m/n/12 Therein the convolution kernel [] governs the
+ []
+
+[16] (./OASignals_PVAH_v3.bbl
+Underfull \hbox (badness 1609) in paragraph at lines 69--74
+[]\OT1/cmr/m/n/10 O. Melchert, E. Blumenr^^?other, M. Wollweber, and B. Roth.  
+Numerical prediction of
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 69--74
+\OT1/cmr/m/n/10 the piezoelectric transducer response in the acoustic nearfield
+ using a one-dimensional
+ []
+
+[17]
+Underfull \hbox (badness 1102) in paragraph at lines 200--205
+[]\OT1/cmr/m/n/10 O. Melchert.  PyPCPI - A python module for optoacoustic signa
+l generation via polar
+ []
+
+[18]) [19] (./OASignals_PVAH_v3.aux) ) 
+Here is how much of TeX's memory you used:
+ 1302 strings out of 493634
+ 13265 string characters out of 3143401
+ 71387 words of memory out of 3000000
+ 4612 multiletter control sequences out of 15000+200000
+ 13142 words of font info for 51 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 25i,11n,24p,215b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on OASignals_PVAH_v3.dvi (19 pages, 70912 bytes).

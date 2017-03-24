@@ -1,0 +1,70 @@
+set terminal postscript enhanced eps size 14cm,9cm color lw 1 16 font "Times-Roman"
+#set terminal postscript enhanced eps size 14cm,16.5cm color lw 1 16 font "Times-Roman"
+set output "./FIGS/figB1ab.eps"
+
+FIG8a1_3DSIM = '../data/3D_FIG8a_ma1.3_a00.3.dat'
+FIG8a2_3DSIM = '../data/3D_FIG8a_ma1.3_a01.5.dat'
+FIG8b1_3DSIM = '../data/3D_FIG8b_ma8.0_a00.3.dat'
+FIG8b2_3DSIM = '../data/3D_FIG8b_ma8.0_a01.5.dat'
+
+FIG8a1_1D = '../data_VolterraInt/1D_FIG8a_ma1.3_a00.3.dat'
+FIG8a2_1D = '../data_VolterraInt/1D_FIG8a_ma1.3_a01.5.dat'
+FIG8b1_1D = '../data_VolterraInt/1D_FIG8b_ma8.0_a00.3.dat'
+FIG8b2_1D = '../data_VolterraInt/1D_FIG8b_ma8.0_a01.5.dat'
+
+
+set style line 111 lc rgb 'black' lt 1 lw 1
+set style line 211 lc rgb 'light-grey' lt 1 lw 2.5 
+set style line 311 lc rgb 'dark-grey' lt 1 lw 1.
+
+set key samplen 1.0 reverse Left 
+
+set xrange [-0.05:0.6]
+set xtics ('0' 0,'0.01' 0.1,'0.02' 0.2,'0.03' 0.3,'0.04' 0.4,'0.05' 0.5,'{/Times-Italic c}{/Symbol t} (cm)' 0.6)
+
+set ylabel "{/Times-Italic p}({/Symbol t})/({/Times-Italic f_{/=10 0}}{/Symbol m}_{/Times-Roman=10 a}{/Symbol G})" 
+set ytics -1.2,0.4,1.2
+set format y '' 
+set xzeroaxis
+
+FAC=2.
+
+set lmargin at screen 0.13
+set rmargin at screen 0.9
+set multiplot
+
+set tmargin at screen 0.95
+set bmargin at screen 0.575
+set yrange [-0.84:1.1]
+set label 11 '(a)' at screen 0.01,0.95
+set label 12 "{/Symbol m}_{/Times-Italic=12 a} = 13 cm^{-1}" at graph 0.4,0.9
+p FIG8a1_1D u 1:4 w l ls 211 dashtype 1 t '1D-K'\
+, FIG8a2_1D u 1:4 w l ls 211 dashtype 2 notitle\
+, FIG8a1_1D u 1:5 w l ls 311 dashtype 1 t '1D-S'\
+, FIG8a2_1D u 1:5 w l ls 311 dashtype 2 notitle\
+, FIG8a1_3DSIM u 2:(FAC*$3) w l ls 111 dashtype 1 t '3D-SIM'\
+, FIG8a2_3DSIM u 2:(FAC*$3) w l ls 111 dashtype 2 notitle
+
+unset label 11
+unset label 12
+
+set tmargin at screen 0.475
+set bmargin at screen 0.1
+set yrange [-0.3:1.1]
+set label 21 '(b)' at screen 0.01,0.475
+set label 22 "{/Symbol m}_{/Times-Italic=12 a} = 80 cm^{-1}" at graph 0.4,0.9
+
+p FIG8b1_1D u 1:4 w l ls 211 dashtype 1 t '1D-K'\
+, FIG8b2_1D u 1:4 w l ls 211 dashtype 2 notitle\
+, FIG8b1_1D u 1:5 w l ls 311 dashtype 1 t '1D-S'\
+, FIG8b2_1D u 1:5 w l ls 311 dashtype 2 notitle\
+, FIG8b1_3DSIM u 2:(FAC*$3) w l ls 111 dashtype 1 t '3D-SIM'\
+, FIG8b2_3DSIM u 2:(FAC*$3) w l ls 111 dashtype 2 notitle
+
+
+unset label 21
+unset label 22
+
+
+
+unset multiplot

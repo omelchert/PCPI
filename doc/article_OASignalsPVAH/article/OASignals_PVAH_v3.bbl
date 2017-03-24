@@ -1,0 +1,234 @@
+\begin{thebibliography}{10}
+
+\bibitem{Kruger:1995}
+R.~A. Kruger, P.~Liu, Y.~Fang, and C.~R. Appledorn.
+\newblock {Photoacoustic ultrasound (PAUS) - Reconstruction tomography}.
+\newblock {\em Med. Phys.}, 22:1605--1609, 1995.
+
+\bibitem{Sigrist:1978}
+M.~W. Sigrist and F.~K. Kneub\"{u}hl.
+\newblock Laser-generated stress waves in liquids.
+\newblock {\em J. Acoust. Soc. Am.}, 64(6):1652--1663, 1978.
+
+\bibitem{Sigrist:1986}
+M.~W. Sigrist.
+\newblock {Laser generation of acoustic waves in liquids and gases}.
+\newblock {\em J. Appl. Phys.}, 60:R83--R122, 1986.
+
+\bibitem{Hutchins:1986}
+D.~A. Hutchins.
+\newblock Mechanisms of pulsed photoacoustic generation.
+\newblock {\em Can. J. Phys.}, 64(9):1247--1264, 1986.
+
+\bibitem{Tam:1986}
+A.~C. Tam.
+\newblock Applications of photoacoustic sensing techniques.
+\newblock {\em Rev. Mod. Phys.}, 58:381--431, 1986.
+
+\bibitem{Diebold:1990}
+G.~J. Diebold, M.~I. Khan, and S.~M. Park.
+\newblock Photoacoustic signatures of particulate matter: optical production of
+  acoustic monopole radiation.
+\newblock {\em Science}, 250(4977):101--104, 1990.
+
+\bibitem{Diebold:1991}
+G.~J. Diebold, T.~Sun, and M.~I. Khan.
+\newblock Photoacoustic monopole radiation in one, two, and three dimensions.
+\newblock {\em Phys. Rev. Lett.}, 67:3384--3387, 1991.
+
+\bibitem{Wang:2009}
+L.V. Wang.
+\newblock {\em Photoacoustic Imaging and Spectroscopy}.
+\newblock Optical Science and Engineering. CRC Press, 2009.
+
+\bibitem{Xia:2011}
+W.~Xia, D.~Piras, M.~Heijblom, W.~Steenbergen, T.~G. Van~Leeuwen, and
+  S.~Manohar.
+\newblock Poly(vinyl alcohol) gels as photoacoustic breast phantoms revisited.
+\newblock {\em J. Biomed. Opt.}, 16(7):075002--075002, 2011.
+
+\bibitem{Zell:2007}
+K.~Zell, J.~I. Sperl, M.~W. Vogel, R.~Niessner, and C.~Haisch.
+\newblock Acoustical properties of selected tissue phantom materials for
+  ultrasound imaging.
+\newblock {\em Phys. Med. Biol.}, 52(20):N475, 2007.
+
+\bibitem{Blumenroether:2016}
+E.~Blumenr\"other, O.~Melchert, M.~Wollweber, and B.~Roth.
+\newblock {Detection, numerical simulation and approximate inversion of
+  optoacoustic signals generated in multi-layered PVA hydrogel based tissue
+  phantoms}.
+\newblock {\em Photoacoustics}, 4:125--132, 2016.
+
+\bibitem{Gonzalez:2014}
+M.~G. Gonz{\'a}lez, P.~A. Sorichetti, and G.~D. Santiago.
+\newblock Modeling thin-film piezoelectric polymer ultrasonic sensors.
+\newblock {\em Rev. Sci. Instrum.}, 85(11):115005, 2014.
+
+\bibitem{Melchert:2017}
+O.~Melchert, E.~Blumenr\"other, M.~Wollweber, and B.~Roth.
+\newblock {Numerical prediction of the piezoelectric transducer response in the
+  acoustic nearfield using a one-dimensional electromechanical finite
+  difference approach}.
+\newblock (preprint), 2017.
+
+\bibitem{Paltauf:1997}
+G.~Paltauf and H.~Schmidt-Kloiber.
+\newblock {Measurement of laser-induced acoustic waves with a calibrated
+  optical transducer}.
+\newblock {\em J. Appl. Phys.}, 82:1525, 1997.
+
+\bibitem{Jacques:2013}
+S.~L. Jacques.
+\newblock Optical properties of biological tissue: a review.
+\newblock {\em Phys. Med. Biol.}, 58:R37--R61, 2013.
+
+\bibitem{Wang:1995}
+L.~Wang, S.~L. Jacques, and L.~Q. Zheng.
+\newblock {MCML - Monte Carlo modeling of photon transport in multi-layered
+  tissues}.
+\newblock {\em Comput. Methods Progr. Biomed.}, 47:131, 1995.
+
+\bibitem{Alerstam:2010}
+E.~Alerstam, W.~C.~Y. Lo, T.~D. Han, J.~Rose, S.~Andersson-Engels, and
+  L.~Lilge.
+\newblock Next-generation acceleration and code optimization for light
+  transport in turbid media using gpus.
+\newblock {\em Biomed. Opt. Express}, 1:658--675, 2010.
+
+\bibitem{Wang:1997}
+L.~Wang, S.~L. Jacques, and L.~Q. Zheng.
+\newblock {CONV - convolution for responses to a finite diameter photon beam
+  incident on multi-layered tissues}.
+\newblock {\em Comput. Methods Progr. Biomed.}, 54:141, 1997.
+\newblock For source code, see: http://omlc.org/software/mc/.
+
+\bibitem{Melchert_FJ:2016}
+O.~Melchert, M.~Wollweber, and B.~Roth.
+\newblock {Efficient polar convolution based on the discrete Fourier-Bessel
+  transform for application in computational biophotonics}.
+\newblock (preprint), 2016.
+
+\bibitem{Jacques_mcxyz:2013}
+S.~L. Jacques and T.~Li.
+\newblock {Monte Carlo simulations of light transport in 3D heterogeneous
+  tissues (mcxyz.c)}.
+\newblock See http://omlc.org/software/mc/mcxyz/index.html [accessed
+  30.01.2017], 2013.
+
+\bibitem{Gusev:1993}
+V.~E. Gusev and A.~A. Karabutov.
+\newblock {\em Laser Optoacoustics}.
+\newblock American Institute of Physics, 1993.
+
+\bibitem{Yao:2014b}
+D.-K. Yao, C.~Zhang, K.~Maslov, and L.~V. Wang.
+\newblock {Photoacoustic measurement of the Gr{\"u}neisen parameter of tissue}.
+\newblock {\em J. Biomed. Opt.}, 19(1):017007--017007, 2014.
+
+\bibitem{Schoeffmann:1988}
+H.~Schoeffmann, H.~Schmidt-Kloiber, and E.~Reichel.
+\newblock Time-resolved investigations of laser-induced shock waves in water by
+  use of polyvinylidenefluoride hydrophones.
+\newblock {\em J. Appl. Phys.}, 63:46--51, 1988.
+
+\bibitem{Jaeger:2005}
+M.~Jaeger, J.~J. Niederhauser, M.~Hejazi, and M.~Frenz.
+\newblock Diffraction-free acoustic detection for optoacoustic depth profiling
+  of tissue using an optically transparent polyvinylidene fluoride pressure
+  transducer operated in backward and forward mode.
+\newblock {\em J. Biomed. Opt.}, 10(2):024035, 2005.
+
+\bibitem{Terzic:1984}
+M.~Terzi\'{c} and M.~W. Sigrist.
+\newblock Diffraction characteristics of laser-induced acoustic waves in
+  liquids.
+\newblock {\em J. Appl. Phys.}, 56(1):93--95, 1984.
+
+\bibitem{Karabutov:1996}
+A.~Karabutov, N.~B. Podymova, and V.~S. Letokhov.
+\newblock Time-resolved laser optoacoustic tomography of inhomogeneous media.
+\newblock {\em Appl. Phys. B}, 63:545--563, 1996.
+
+\bibitem{Jacques:2014}
+S.~L. Jacques.
+\newblock {Coupling 3D Monte Carlo light transport in optically heterogeneous
+  tissues to photoacoustic signal generation}.
+\newblock {\em Photoacoustics}, 2:137--142, 2014.
+
+\bibitem{Fonseca:2016}
+M.~Fonseca, B.~Zeqiri, P.~C. Beard, and B.~T. Cox.
+\newblock Characterisation of a phantom for multiwavelength quantitative
+  photoacoustic imaging.
+\newblock {\em Phys. Med. Biol.}, 61(13):4950, 2016.
+
+\bibitem{Kharine:2003}
+A.~Kharine, S.~Manohar, R.~Seeton, R.~G.~M. Kolkman, R.~A. Bolt,
+  W.~Steenbergen, and F.~F.~M. deMul.
+\newblock Poly(vinyl alcohol) gels for use as tissue phantoms in photoacoustic
+  mammography.
+\newblock {\em Phys. Med. Biol.}, 48(3):357--370, 2003.
+
+\bibitem{Wollweber:2014}
+M.~Meinhardt-Wollweber, C.~Suhr, A.-K. Kniggendorf, and B.~Roth.
+\newblock {Tissue phantoms for multimodal approaches: Raman spectroscopy and
+  optoacoustics}.
+\newblock In {\em SPIE BiOS}, SPIE Proceedings, page 89450B. SPIE, 2014.
+
+\bibitem{Niederhauser:2005}
+J.~J. Niederhauser, M.~Jaeger, M.~Hejazi, H.~Keppner, and M.~Frenz.
+\newblock {Transparent ITO coated PVDF transducer for optoacoustic depth
+  profiling}.
+\newblock {\em Optics Communications}, 253(4-6):401--406, 2005.
+
+\bibitem{Barnes:2010}
+N.~Barnes.
+\newblock Publish your computer code: it is good enough.
+\newblock {\em Nature}, 467:753, 2010.
+
+\bibitem{Ince:2012}
+D.~C. Ince, L.~Hatton, and J.~Graham-Cumming.
+\newblock {The case for open computer programs}.
+\newblock {\em Nature}, 482:485--488, 2012.
+
+\bibitem{Sandve:2013}
+G.~K. Sandve, A.~Nekrutenko, J.~Taylor, E.~Hovig, and P.~E. Bourne.
+\newblock Ten simple rules for reproducible computational research.
+\newblock {\em PLoS Computational Biology}, 9:e1003285, 2013.
+
+\bibitem{Melchert_GitHub_PCPI:2016}
+O.~Melchert.
+\newblock {PyPCPI - A python module for optoacoustic signal generation via
+  polar convolution and Poisson integral evaluation}.
+\newblock See https://github.com/omelchert/PCPI.git [accessed 15.02.2017],
+  2016.
+
+\bibitem{Oliphant:2007}
+T.~E. Oliphant.
+\newblock {Python for Scientific Computing}.
+\newblock {\em Computing in Science \& Engineering}, 9(3):10--20, 2007.
+
+\bibitem{Jones:2001}
+E.~Jones, T.~E. Oliphant, P.~Peterson, and {many others}.
+\newblock {SciPy}: Open source scientific tools for {Python}.
+\newblock {http://www.scipy.org/}, 2001.
+\newblock [Online; accessed 2017-03-06].
+
+\bibitem{Gnuplot:2015}
+T.~Williams, C.~Kelley, and {many others}.
+\newblock Gnuplot 5.0: an interactive plotting program.
+\newblock {http://gnuplot.sourceforge.net/}, 2015.
+\newblock [Online; accessed 2017-03-06].
+
+\bibitem{Paltauf:2000}
+G.~Paltauf and H.~Schmidt-Kloiber.
+\newblock Pulsed optoacoustic characterization of layered media.
+\newblock {\em J. Appl. Phys.}, 88:1624--1631, 2000.
+
+\bibitem{Paltauf:1996}
+G.~Paltauf, H.~Schmidt-Kloiber, and H.~Guss.
+\newblock Light distribution measurements in absorbing materials by optical
+  detection of laser-induced stress waves.
+\newblock {\em Appl. Phys. Lett.}, 69(11):1526--1528, 1996.
+
+\end{thebibliography}
